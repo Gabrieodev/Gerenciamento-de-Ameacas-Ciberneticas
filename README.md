@@ -143,3 +143,122 @@ Tratados internacionais (ex.: Convenção sobre Crime Digital) harmonizam cooper
 - [ ] Criar um sumário de risco top-5 para um sistema fictício (impacto × probabilidade)  
 
 ---
+
+## 📘 Módulo 2 — Teste de Segurança da Rede
+
+### 🌐 Visão Geral
+Este módulo aborda as principais **avaliações, técnicas e ferramentas** usadas para testar e validar a segurança de redes corporativas. O foco está em como identificar vulnerabilidades, simular ataques (teste de penetração) e utilizar soluções que ajudam empresas a detectar e responder incidentes.  
+👉 Pense nele como a parte **“mão na massa” da segurança digital**: scanners, ferramentas, simulações e defesa contra ataques reais.
+
+---
+
+## 🛡️ Avaliações de Segurança
+
+### 🔍 Scanners de Vulnerabilidade
+Ferramentas que procuram pontos fracos em computadores, sistemas, redes ou aplicações.  
+**Principais exemplos:**
+- **Nessus**
+- **Retina**
+- **Core Impact**
+- **GFI LanGuard**
+
+📌 **Tipos de scanners:**
+- **Rede** → focados em infraestrutura.  
+- **Aplicação** → avaliam softwares e sistemas.  
+- **Web** → analisam sites e serviços online.  
+
+⚡ **Modos de varredura:**
+- **Invasiva** → tenta explorar a falha (pode até travar o alvo).  
+- **Credenciada** → usa login/senha para coletar mais detalhes.  
+
+### 💻 Ferramentas de Linha de Comando
+Comandos úteis para diagnóstico e avaliação:  
+- `ipconfig` — exibe configurações de rede (IP, gateway).  
+- `ping` — testa conectividade com outro host.  
+- `arp` — tabela de endereços MAC ↔ IP.  
+- `tracert` — rota de pacotes até um destino.  
+- `nslookup` — consulta servidores DNS.  
+- `netstat` — conexões de rede ativas e portas abertas.  
+- `nbtstat` — estatísticas do NetBIOS.  
+- `nmap` — scanner de rede avançado.  
+- `netcat` — leitura/escrita de dados em conexões.  
+- `hping` — geração de pacotes customizados.  
+
+### 🗂️ SIEM e SOAR
+- **SIEM (Security Information and Event Management)** → coleta e analisa logs de diversas fontes (rede, servidores, firewalls, apps).  
+- **SOAR (Security Orchestration, Automation and Response)** → automatiza resposta a incidentes simples, reduzindo a carga da equipe.  
+
+---
+
+## 🧪 Técnicas de Teste de Segurança de Rede
+
+- **ST&E (Security Test & Evaluation)** → valida se medidas de proteção em uma rede **operacional** estão funcionando.  
+- **Quando aplicar:** durante a fase de implementação ou após o sistema estar em operação.  
+
+### 🔑 Tipos de Testes
+- **Teste de penetração** (pen testing).  
+- **Varredura de rede**.  
+- **Varredura de vulnerabilidade**.  
+- **Quebra de senha**.  
+- **Revisão de logs**.  
+- **Verificadores de integridade**.  
+- **Detecção de vírus**.  
+
+---
+
+## 🛠️ Ferramentas de Teste de Segurança de Rede
+
+### ⚙️ Exemplos importantes
+- **Nmap / Zenmap** → scanner de portas e serviços, identifica SO remoto.  
+- **SuperScan** → digitalização de portas no Windows (requer privilégios de admin).  
+- **SIEM** → além da coleta, faz correlação, análise forense e retenção.  
+- **Tripwire** → verificação de integridade de arquivos.  
+- **Nessus** → scanner de vulnerabilidades robusto.  
+- **LOphtCrack** → especializado em quebra de senhas.  
+- **Metasploit** → framework para exploração de falhas e testes de penetração.  
+
+---
+
+## 🕵️ Teste de Penetração (Pen Testing)
+
+### 🚀 O que é
+Simulação controlada de ataques para descobrir falhas e avaliar a resiliência da rede.
+
+### 🔄 Fases do Teste
+1. **Planejamento** — definir escopo, regras e autorizações.  
+2. **Descoberta** — mapear sistemas, serviços e potenciais vulnerabilidades.  
+3. **Ataque** — exploração prática das falhas.  
+4. **Relatórios** — documentar descobertas, impacto e recomendações.  
+
+### 🎭 Exercícios Red Team x Blue Team
+- **Time Vermelho (Red Team)** → ofensivo, simula ataques reais.  
+- **Time Azul (Blue Team)** → defensivo, monitora e protege.  
+
+### 📡 Packet Analyzers (Sniffers)
+Ferramentas que capturam tráfego de rede:
+- Podem ser usadas por atacantes (ex.: espionagem de pacotes).  
+- Também ajudam administradores a diagnosticar problemas (largura de banda, erros de configuração, falhas de rede).  
+
+---
+
+## 📌 Glossário Rápido
+
+- **ST&E** → Security Test & Evaluation.  
+- **SIEM** → Security Information and Event Management.  
+- **SOAR** → Security Orchestration, Automation and Response.  
+- **Pen Test** → Penetration Test.  
+- **Sniffer** → analisador de pacotes.  
+
+---
+
+## ✅ Checklist de Estudo / Atividades Práticas
+
+- [ ] Executar um **scan com Nmap** em uma rede de teste.  
+- [ ] Criar um **laboratório de pen test** com Metasploit e máquinas virtuais.  
+- [ ] Testar **varreduras invasivas x não invasivas** e comparar resultados.  
+- [ ] Configurar um **SIEM open source (ex.: Wazuh, ELK)** e analisar logs de ataques simulados.  
+- [ ] Simular um exercício **Red Team x Blue Team** em rede controlada.  
+- [ ] Usar um **sniffer** (ex.: Wireshark) para capturar e analisar tráfego legítimo e malicioso.  
+
+---
+
