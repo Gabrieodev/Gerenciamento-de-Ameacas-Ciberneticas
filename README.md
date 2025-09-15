@@ -262,3 +262,87 @@ Ferramentas que capturam tráfego de rede:
 
 ---
 
+# 🔐 Módulo 3 – Inteligência de Ameaças  
+
+## 📌 Visão Geral  
+A **Inteligência de Ameaças** é um dos pilares da cibersegurança moderna.  
+Ela consiste em **coletar, analisar e compartilhar informações** sobre ameaças digitais para **prevenir ataques e fortalecer defesas**.  
+
+Sem inteligência de ameaças, as empresas ficam em uma postura **reativa**, respondendo apenas após sofrerem um ataque.  
+Com inteligência de ameaças, as empresas atuam de forma **proativa**, bloqueando ataques antes mesmo que causem impacto.  
+
+---
+
+## 🌐 Fontes de Informação  
+
+Para acompanhar a evolução das ameaças, é essencial recorrer a fontes confiáveis. Entre as principais:  
+
+- 🏫 **SANS Institute** → maior referência em **treinamento, pesquisas e boas práticas** de segurança.  
+- 🕵️ **MITRE** → criadora do **MITRE ATT&CK** (táticas e técnicas de adversários) e mantenedora do catálogo **CVE** de vulnerabilidades.  
+- 🌍 **FIRST (Forum of Incident Response and Security Teams)** → conecta equipes de resposta a incidentes (CSIRTs) ao redor do mundo.  
+- 🛡️ **CIS (Center for Internet Security)** → responsável pelos **CIS Controls** e benchmarks de configuração segura.  
+- 📚 **(ISC)²** → organização global que promove **certificações e atualização profissional** em cibersegurança.  
+- 📊 **Cisco Cybersecurity Reports** → relatórios anuais e semestrais que analisam tendências, malwares e táticas emergentes.  
+
+👉 Além disso, **blogs, podcasts, newsletters e conferências** ajudam os profissionais a se manterem atualizados com as últimas descobertas.  
+
+---
+
+## 🛡️ Serviços de Inteligência de Ameaças  
+
+Os serviços de inteligência atuam como **centros de monitoramento global**, coletando indicadores de ataque, analisando comportamento de ameaças e **distribuindo regras de defesa** automaticamente.  
+
+### Exemplos de serviços:  
+- 🔎 **Cisco Talos** → inteligência em tempo real integrada aos produtos Cisco, identificando ataques em escala global.  
+- 🔥 **FireEye (Mandiant)** → combina inteligência, expertise e tecnologia. Sua plataforma **Helix Security** une SIEM e SOAR com análise comportamental e detecção avançada.  
+- 🏛️ **AIS (Automated Indicator Sharing – DHS/EUA)** → serviço gratuito que compartilha indicadores de ameaças em **tempo real** entre o setor público e privado.  
+- 🗂️ **MITRE CVE** → banco público com milhares de vulnerabilidades catalogadas, referência mundial para patching e mitigação.  
+
+💡 **Exemplo prático**: quando um novo ransomware aparece, esses serviços detectam **IoCs** (como IPs, domínios maliciosos, hashes de arquivos) e enviam automaticamente para firewalls e SIEMs, que bloqueiam o ataque **antes que ele afete a rede**.  
+
+---
+
+## 🔄 Padrões de Compartilhamento  
+
+Para que diferentes ferramentas de segurança possam **conversar entre si** e automatizar respostas, existem padrões abertos:  
+
+- 📑 **STIX (Structured Threat Information Expression)** → linguagem padronizada para descrever ameaças e incidentes.  
+- 🔗 **TAXII (Trusted Automated Exchange of Indicator Information)** → protocolo que permite a **troca automatizada e segura** de dados de inteligência.  
+- 📦 **CyBox (Cyber Observable eXpression)** → descreve objetos observáveis em ataques, como arquivos maliciosos, tráfego suspeito ou IPs comprometidos.  
+
+Esses padrões permitem que os sistemas de defesa sejam **automatizados**, reduzindo o tempo de resposta e garantindo integração entre diversas ferramentas de segurança.  
+
+---
+
+## 📖 Glossário Rápido  
+
+- **IOC (Indicator of Compromise)** → evidências digitais de que um ataque ocorreu ou está em andamento.  
+- **CVE (Common Vulnerabilities and Exposures)** → catálogo público de vulnerabilidades conhecidas.  
+- **SIEM (Security Information and Event Management)** → sistema que coleta e analisa logs de segurança.  
+- **SOAR (Security Orchestration, Automation, and Response)** → automação de resposta a incidentes.  
+- **STIX** → linguagem para descrever informações de ameaças.  
+- **TAXII** → protocolo de troca de inteligência de ameaças.  
+- **CyBox** → padrão para representar objetos observáveis em ataques.  
+
+---
+
+## ✅ Checklist de Estudo / Atividades Práticas  
+
+Use este checklist para fixar o conteúdo do módulo:  
+
+### Fontes  
+- [ ] Pesquisar e assinar newsletters de pelo menos **2 organizações** (ex.: SANS, CIS).  
+- [ ] Acompanhar relatórios da **Cisco** ou da **MITRE**.  
+
+### Serviços  
+- [ ] Simular o uso de uma base de **CVE** para verificar vulnerabilidades em softwares comuns.  
+- [ ] Explorar relatórios públicos do **Cisco Talos** ou **FireEye Mandiant**.  
+
+### Padrões  
+- [ ] Ler exemplos de documentos **STIX** e identificar como informações são estruturadas.  
+- [ ] Estudar como o **TAXII** permite integração automática entre ferramentas de segurança.  
+- [ ] Mapear um **IOC** usando CyBox (exemplo: hash de arquivo malicioso).  
+
+### Prática  
+- [ ] Criar um pequeno mapa mental conectando **Fontes → Serviços → Padrões → Aplicação**.  
+- [ ] Escrever um resumo explicando **como inteligência de ameaças transforma dados em ações práticas**.  
