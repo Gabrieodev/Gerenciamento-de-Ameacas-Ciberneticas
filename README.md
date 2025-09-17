@@ -345,4 +345,116 @@ Use este checklist para fixar o conteúdo do módulo:
 
 ### Prática  
 - [ ] Criar um pequeno mapa mental conectando **Fontes → Serviços → Padrões → Aplicação**.  
-- [ ] Escrever um resumo explicando **como inteligência de ameaças transforma dados em ações práticas**.  
+- [ ] Escrever um resumo explicando **como inteligência de ameaças transforma dados em ações práticas**.
+
+---
+
+# 🛡️ Módulo 4 – Avaliação de Vulnerabilidade de Endpoint
+
+## 📊 Perfil de Rede e Servidor
+
+O perfilamento de rede e servidor é essencial para **criar linhas de base de segurança e desempenho**. Essas linhas de base permitem identificar anomalias e comportamentos suspeitos.
+
+* **Perfil de rede**: coleta informações como duração da sessão, taxa de transferência, portas utilizadas e espaço de endereços críticos.
+* **Perfil de servidor**: estabelece o estado operacional aceito (parâmetros de rede, usuários e aplicativos permitidos).
+
+O comportamento da rede é descrito por dados como:
+
+* Recursos do fluxo de pacotes
+* Características dos pacotes em si
+* Telemetria de múltiplas fontes
+
+Ferramentas de **Big Data** e **detecção baseada em regras, comportamento e estatísticas** ajudam na análise de anomalias.
+
+### Ferramentas de Avaliação
+
+* **Análise de risco**: avalia impacto e probabilidade de vulnerabilidades.
+* **Varredura de vulnerabilidades**: uso de softwares para identificar falhas em servidores e redes.
+* **Testes de penetração (pentests)**: simulação autorizada de ataques para medir a eficácia da segurança.
+
+---
+
+## 📌 Sistema de Pontuação de Vulnerabilidade Comum (CVSS)
+
+O **CVSS (Common Vulnerability Scoring System)** é um padrão aberto usado globalmente para avaliar vulnerabilidades de forma objetiva.
+
+* Escala: **0 a 10**, com classificações:
+
+  * 0 = Nenhum
+  * 0.1–3.9 = Baixo
+  * 4.0–6.9 = Médio
+  * 7.0–8.9 = Alto
+  * 9.0–10 = Crítico
+
+### Estrutura de Métricas
+
+1. **Base** → descreve as características fundamentais da vulnerabilidade (vetor de ataque, complexidade, privilégios, interação do usuário, escopo).
+2. **Temporal** → considera aspectos como exploits já disponíveis e evolução da ameaça.
+3. **Ambiental** → ajusta o risco de acordo com o contexto da organização.
+
+🔗 Ferramenta prática: [Calculadora CVSS do FIRST](https://www.first.org/cvss/)
+
+Além do CVSS, outras fontes importantes:
+
+* **CVE (Common Vulnerabilities and Exposures)** – catálogo global de vulnerabilidades conhecidas.
+* **NVD (National Vulnerability Database)** – base de dados mantida pelo governo dos EUA.
+
+---
+
+## ⚙️ Gerenciamento Seguro de Dispositivos
+
+O **gerenciamento de riscos** envolve selecionar e aplicar controles para reduzir a probabilidade de ataques e o impacto de vulnerabilidades.
+
+### Formas de Resposta ao Risco
+
+1. **Evitar** → eliminar a atividade ou serviço vulnerável.
+2. **Reduzir** → aplicar medidas de mitigação.
+3. **Compartilhar** → terceirizar (seguro ou parceiros externos).
+4. **Reter** → aceitar o risco e monitorá-lo.
+
+### Ciclo de Vida do Gerenciamento de Vulnerabilidades
+
+1. Descobrir
+2. Priorizar ativos
+3. Avaliar
+4. Relatar
+5. Corrigir
+6. Verificar
+
+### Práticas de Gerenciamento
+
+* **Gerenciamento de ativos**: controle de dispositivos e softwares conectados à rede.
+* **MDM (Mobile Device Management)**: configuração e monitoramento de dispositivos móveis corporativos via nuvem.
+* **Gerenciamento de configuração**: inventário e controle de hardware/software.
+* **Gerenciamento de patches**: atualização contínua de softwares e sistemas, com técnicas como:
+
+  * Varredura baseada em agente
+  * Varredura sem agente
+  * Monitoramento passivo de rede
+
+---
+
+## 📖 Glossário Rápido
+
+* **Linha de base**: ponto de referência de desempenho ou segurança aceito como “normal”.
+* **Pentest**: simulação autorizada de ataque para testar a segurança.
+* **CVSS**: padrão internacional para pontuar vulnerabilidades.
+* **CVE**: catálogo público de vulnerabilidades conhecidas.
+* **NVD**: base de dados oficial dos EUA sobre vulnerabilidades.
+* **MDM**: gerenciamento de dispositivos móveis corporativos.
+* **Patch**: correção ou atualização de software que resolve falhas.
+
+---
+
+## ✅ Checklist de Estudo
+
+* [ ] Entender o conceito de **perfil de rede** e **servidor**.
+* [ ] Revisar **ferramentas de análise de risco, varredura e pentest**.
+* [ ] Explorar a **calculadora CVSS** e interpretar escores.
+* [ ] Conhecer os grupos de métricas (base, temporal, ambiental).
+* [ ] Ler sobre **CVE e NVD** como fontes de vulnerabilidades.
+* [ ] Estudar o ciclo de vida de **gerenciamento de vulnerabilidades**.
+* [ ] Revisar práticas de **MDM, configuração e gerenciamento de patches**.
+
+---
+
