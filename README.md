@@ -458,3 +458,157 @@ O **gerenciamento de riscos** envolve selecionar e aplicar controles para reduzi
 
 ---
 
+Perfeito, Gabriel 👌
+Aqui está o conteúdo que você enviou, totalmente transformado em **README Markdown** seguindo **exatamente o mesmo padrão e estilo** que você me pediu — com títulos, emojis, divisões, explicações didáticas e listas organizadas.
+
+---
+
+## 🧩 Módulo 5 — Gerenciamento de Controles de Risco e Segurança
+
+### 🎯 Por que devo usar este módulo?
+
+Bem-vindo a este módulo que se concentra no **gerenciamento de riscos**.
+O objetivo é identificar **riscos e vulnerabilidades** que representam ameaças e aplicar **ações administrativas e soluções abrangentes** para proteger a empresa de forma eficaz.
+
+👉 **Risco** é a probabilidade de perda devido a uma ameaça — seja um ato mal-intencionado ou evento inesperado — que danifica os sistemas de informação ou os ativos da empresa.
+O **impacto** é o dano causado por esse evento, podendo gerar perda de ativos ou interrupção de serviços.
+
+O **gerenciamento de riscos** busca reduzir essas ameaças a um **nível aceitável**, implementando controles para manter esse equilíbrio.
+
+---
+
+## ⚠️ Níveis de Risco
+
+### 🔺 Alto Risco
+
+Nenhuma ação ou controle é implementado para reduzir os riscos.
+A ameaça é muito alta e o custo de um incidente pode ser **catastrófico**.
+
+### 🟡 Baixo Risco
+
+O **devido cuidado** é exercido para reduzir o nível de risco.
+Embora o risco ainda exista, essas medidas **minimizam possíveis perdas**.
+
+### 🟢 Risco Aceitável
+
+Envolve **medidas razoáveis** para eliminar ou conter o risco.
+Alguns riscos permanecem, mas **diversos controles** são aplicados para evitar perdas.
+
+---
+
+## 🌪️ Tipos de Fonte de Ameaça
+
+A **avaliação de ameaças** é a base do processo de **avaliação de riscos**.
+Uma **ameaça** é o potencial de uma vulnerabilidade ser explorada, enquanto o **vetor de ameaça** é o caminho usado pelo invasor para atingir o alvo.
+
+📌 **Fontes de ameaça podem ser internas ou externas**, e se dividem em quatro tipos principais:
+
+* **Adversarial** → ameaças de indivíduos, grupos, organizações ou nações.
+* **Acidental** → ações sem intenção maliciosa.
+* **Estrutural** → falhas de equipamentos ou softwares.
+* **Ambiental** → desastres naturais ou causados pelo homem (incêndios, inundações, etc.).
+
+---
+
+## 🛡️ Controles de Segurança Funcional
+
+O **uso funcional** de uma salvaguarda ou contramedida determina **o motivo de sua implementação**.
+Os principais tipos de controles são:
+
+* **Controles Preventivos** → impedem atividades indesejadas ou não autorizadas.
+* **Controles Dissuasivos** → desencorajam ações maliciosas.
+* **Controles de Detecção** → identificam atividades suspeitas.
+* **Controles Corretivos** → restauram sistemas à normalidade após incidentes.
+* **Controles de Recuperação** → restauram recursos e funções após falhas.
+* **Controles de Compensação** → reforçam outros controles de segurança.
+
+---
+
+## 🧠 Gerenciamento de Risco
+
+O gerenciamento de risco envolve identificar, avaliar e responder às ameaças que possam afetar os **ativos e serviços** da empresa.
+
+### 🧾 Etapas do Processo:
+
+1. **Identificar os riscos** internos e externos.
+2. **Avaliar o impacto e a probabilidade** de ocorrência.
+3. **Aplicar controles** para reduzir o risco a um nível aceitável.
+4. **Monitorar continuamente** para garantir que os riscos permaneçam sob controle.
+
+📌 O impacto de um risco pode afetar **toda a organização**, inclusive entidades externas.
+Por isso, o processo deve ser contínuo e revisado periodicamente.
+
+---
+
+## 🧮 Avaliação de Risco
+
+A **avaliação de ameaças** é o ponto de partida da **avaliação de riscos**.
+Ela permite que empresas examinem seus **riscos operacionais** e determinem se as ameaças são **baixas, aceitáveis ou altas**.
+
+### 🎯 Objetivos da Análise de Risco:
+
+* Identificar ativos e seus valores.
+* Identificar vulnerabilidades e ameaças.
+* Quantificar a probabilidade e o impacto de cada ameaça.
+* Equilibrar o custo da contramedida com o impacto da ameaça.
+
+---
+
+### 🔢 Tipos de Análise
+
+* **Análise Quantitativa** → utiliza números e fórmulas (valor do ativo, fator de exposição, expectativa de perda única, taxa anualizada etc.).
+* **Análise Qualitativa** → usa **opiniões e cenários** para medir a probabilidade e o impacto.
+
+🧩 A **matriz de riscos** ajuda a priorizar ameaças e orientar as respostas adequadas.
+
+### ⚖️ Estratégias de Mitigação
+
+* **Aceitar o risco** e reavaliar periodicamente.
+* **Reduzir o risco** com controles e políticas.
+* **Evitar o risco** modificando a abordagem.
+* **Transferir o risco** para terceiros (ex.: seguros).
+
+---
+
+## 🔐 Controles de Segurança
+
+Os **controles de segurança** são **proteções e contramedidas** aplicadas para evitar, detectar, neutralizar ou minimizar riscos.
+
+### 🧩 Tipos de Controle
+
+* **Administrativo** → políticas e procedimentos que tratam informações confidenciais.
+* **Técnico** → hardware e software que gerenciam riscos.
+* **Físico** → barreiras como cercas, trancas e monitoramento para proteger recursos.
+
+### ⚙️ Controles Funcionais
+
+* **Preventivos** → evitam atividades não autorizadas.
+* **Dissuasivos** → reduzem a probabilidade de ataques.
+* **Detectivos** → identificam comportamentos indevidos.
+* **Corretivos** → restauram a confidencialidade, integridade e disponibilidade.
+* **De Recuperação** → devolvem a operação ao estado normal após incidentes.
+* **Compensatórios** → reforçam outros controles existentes.
+
+---
+
+## 📌 Glossário Rápido
+
+* **Risco** → probabilidade de perda causada por uma ameaça.
+* **Ameaça** → potencial de uma vulnerabilidade ser explorada.
+* **Vetor de Ameaça** → caminho usado por um invasor.
+* **Controle de Segurança** → medida implementada para mitigar riscos.
+* **Mitigação** → processo de redução do impacto de um risco.
+* **Matriz de Risco** → ferramenta para priorizar ameaças.
+
+---
+
+## ✅ Checklist de Estudo / Atividades Práticas
+
+* [ ] Identificar e classificar os tipos de riscos na empresa.
+* [ ] Elaborar uma **matriz de risco** com base na probabilidade e impacto.
+* [ ] Aplicar um **controle preventivo e um controle corretivo** em um cenário simulado.
+* [ ] Criar um plano de **gerenciamento de riscos** para um sistema interno.
+* [ ] Simular diferentes **níveis de risco** (alto, baixo e aceitável).
+* [ ] Definir **controles administrativos, técnicos e físicos** em um ambiente de teste.
+
+---
