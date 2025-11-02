@@ -262,9 +262,9 @@ Ferramentas que capturam tráfego de rede:
 
 ---
 
-# 🔐 Módulo 3 – Inteligência de Ameaças  
+## 🔐 Módulo 3 – Inteligência de Ameaças  
 
-## 📌 Visão Geral  
+### 📌 Visão Geral  
 A **Inteligência de Ameaças** é um dos pilares da cibersegurança moderna.  
 Ela consiste em **coletar, analisar e compartilhar informações** sobre ameaças digitais para **prevenir ataques e fortalecer defesas**.  
 
@@ -273,7 +273,7 @@ Com inteligência de ameaças, as empresas atuam de forma **proativa**, bloquean
 
 ---
 
-## 🌐 Fontes de Informação  
+### 🌐 Fontes de Informação  
 
 Para acompanhar a evolução das ameaças, é essencial recorrer a fontes confiáveis. Entre as principais:  
 
@@ -288,11 +288,11 @@ Para acompanhar a evolução das ameaças, é essencial recorrer a fontes confi�
 
 ---
 
-## 🛡️ Serviços de Inteligência de Ameaças  
+### 🛡️ Serviços de Inteligência de Ameaças  
 
 Os serviços de inteligência atuam como **centros de monitoramento global**, coletando indicadores de ataque, analisando comportamento de ameaças e **distribuindo regras de defesa** automaticamente.  
 
-### Exemplos de serviços:  
+#### Exemplos de serviços:  
 - 🔎 **Cisco Talos** → inteligência em tempo real integrada aos produtos Cisco, identificando ataques em escala global.  
 - 🔥 **FireEye (Mandiant)** → combina inteligência, expertise e tecnologia. Sua plataforma **Helix Security** une SIEM e SOAR com análise comportamental e detecção avançada.  
 - 🏛️ **AIS (Automated Indicator Sharing – DHS/EUA)** → serviço gratuito que compartilha indicadores de ameaças em **tempo real** entre o setor público e privado.  
@@ -302,7 +302,7 @@ Os serviços de inteligência atuam como **centros de monitoramento global**, co
 
 ---
 
-## 🔄 Padrões de Compartilhamento  
+### 🔄 Padrões de Compartilhamento  
 
 Para que diferentes ferramentas de segurança possam **conversar entre si** e automatizar respostas, existem padrões abertos:  
 
@@ -314,7 +314,7 @@ Esses padrões permitem que os sistemas de defesa sejam **automatizados**, reduz
 
 ---
 
-## 📖 Glossário Rápido  
+### 📖 Glossário Rápido  
 
 - **IOC (Indicator of Compromise)** → evidências digitais de que um ataque ocorreu ou está em andamento.  
 - **CVE (Common Vulnerabilities and Exposures)** → catálogo público de vulnerabilidades conhecidas.  
@@ -326,32 +326,32 @@ Esses padrões permitem que os sistemas de defesa sejam **automatizados**, reduz
 
 ---
 
-## ✅ Checklist de Estudo / Atividades Práticas  
+### ✅ Checklist de Estudo / Atividades Práticas  
 
 Use este checklist para fixar o conteúdo do módulo:  
 
-### Fontes  
+#### Fontes  
 - [ ] Pesquisar e assinar newsletters de pelo menos **2 organizações** (ex.: SANS, CIS).  
 - [ ] Acompanhar relatórios da **Cisco** ou da **MITRE**.  
 
-### Serviços  
+#### Serviços  
 - [ ] Simular o uso de uma base de **CVE** para verificar vulnerabilidades em softwares comuns.  
 - [ ] Explorar relatórios públicos do **Cisco Talos** ou **FireEye Mandiant**.  
 
-### Padrões  
+#### Padrões  
 - [ ] Ler exemplos de documentos **STIX** e identificar como informações são estruturadas.  
 - [ ] Estudar como o **TAXII** permite integração automática entre ferramentas de segurança.  
 - [ ] Mapear um **IOC** usando CyBox (exemplo: hash de arquivo malicioso).  
 
-### Prática  
+#### Prática  
 - [ ] Criar um pequeno mapa mental conectando **Fontes → Serviços → Padrões → Aplicação**.  
 - [ ] Escrever um resumo explicando **como inteligência de ameaças transforma dados em ações práticas**.
 
 ---
 
-# 🛡️ Módulo 4 – Avaliação de Vulnerabilidade de Endpoint
+## 🛡️ Módulo 4 – Avaliação de Vulnerabilidade de Endpoint
 
-## 📊 Perfil de Rede e Servidor
+### 📊 Perfil de Rede e Servidor
 
 O perfilamento de rede e servidor é essencial para **criar linhas de base de segurança e desempenho**. Essas linhas de base permitem identificar anomalias e comportamentos suspeitos.
 
@@ -374,7 +374,7 @@ Ferramentas de **Big Data** e **detecção baseada em regras, comportamento e es
 
 ---
 
-## 📌 Sistema de Pontuação de Vulnerabilidade Comum (CVSS)
+### 📌 Sistema de Pontuação de Vulnerabilidade Comum (CVSS)
 
 O **CVSS (Common Vulnerability Scoring System)** é um padrão aberto usado globalmente para avaliar vulnerabilidades de forma objetiva.
 
@@ -401,18 +401,18 @@ Além do CVSS, outras fontes importantes:
 
 ---
 
-## ⚙️ Gerenciamento Seguro de Dispositivos
+### ⚙️ Gerenciamento Seguro de Dispositivos
 
 O **gerenciamento de riscos** envolve selecionar e aplicar controles para reduzir a probabilidade de ataques e o impacto de vulnerabilidades.
 
-### Formas de Resposta ao Risco
+#### Formas de Resposta ao Risco
 
 1. **Evitar** → eliminar a atividade ou serviço vulnerável.
 2. **Reduzir** → aplicar medidas de mitigação.
 3. **Compartilhar** → terceirizar (seguro ou parceiros externos).
 4. **Reter** → aceitar o risco e monitorá-lo.
 
-### Ciclo de Vida do Gerenciamento de Vulnerabilidades
+#### Ciclo de Vida do Gerenciamento de Vulnerabilidades
 
 1. Descobrir
 2. Priorizar ativos
@@ -421,7 +421,7 @@ O **gerenciamento de riscos** envolve selecionar e aplicar controles para reduzi
 5. Corrigir
 6. Verificar
 
-### Práticas de Gerenciamento
+#### Práticas de Gerenciamento
 
 * **Gerenciamento de ativos**: controle de dispositivos e softwares conectados à rede.
 * **MDM (Mobile Device Management)**: configuração e monitoramento de dispositivos móveis corporativos via nuvem.
@@ -434,7 +434,7 @@ O **gerenciamento de riscos** envolve selecionar e aplicar controles para reduzi
 
 ---
 
-## 📖 Glossário Rápido
+### 📖 Glossário Rápido
 
 * **Linha de base**: ponto de referência de desempenho ou segurança aceito como “normal”.
 * **Pentest**: simulação autorizada de ataque para testar a segurança.
@@ -446,7 +446,7 @@ O **gerenciamento de riscos** envolve selecionar e aplicar controles para reduzi
 
 ---
 
-## ✅ Checklist de Estudo
+### ✅ Checklist de Estudo
 
 * [ ] Entender o conceito de **perfil de rede** e **servidor**.
 * [ ] Revisar **ferramentas de análise de risco, varredura e pentest**.
