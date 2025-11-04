@@ -458,11 +458,6 @@ O **gerenciamento de riscos** envolve selecionar e aplicar controles para reduzi
 
 ---
 
-Perfeito, Gabriel 👌
-Aqui está o conteúdo que você enviou, totalmente transformado em **README Markdown** seguindo **exatamente o mesmo padrão e estilo** que você me pediu — com títulos, emojis, divisões, explicações didáticas e listas organizadas.
-
----
-
 ## 🧩 Módulo 5 — Gerenciamento de Controles de Risco e Segurança
 
 ### 🎯 Por que devo usar este módulo?
@@ -610,5 +605,182 @@ Os **controles de segurança** são **proteções e contramedidas** aplicadas pa
 * [ ] Criar um plano de **gerenciamento de riscos** para um sistema interno.
 * [ ] Simular diferentes **níveis de risco** (alto, baixo e aceitável).
 * [ ] Definir **controles administrativos, técnicos e físicos** em um ambiente de teste.
+
+---
+
+## 🧠 Módulo 6 — Análise Forense Digital e Resposta a Incidentes
+
+### 🔍 Visão Geral
+
+Este módulo aborda o **processo de investigação e resposta a incidentes de segurança digital**, desde o **manuseio de evidências** até a **recuperação após desastres**.
+O foco está em **detectar, analisar, conter e mitigar ataques cibernéticos**, além de aplicar práticas de perícia digital e continuidade de negócios.
+
+---
+
+## 🧾 Manuseio de Evidências e Atribuição de Ataque
+
+A **perícia digital** consiste na **recuperação e investigação de informações** encontradas em dispositivos eletrônicos relacionadas a atividades criminosas.
+Essas informações são chamadas de **indicadores de comprometimento (IoCs)** — evidências que demonstram que um incidente de segurança ocorreu.
+
+📌 É essencial **preservar essas evidências** para análises futuras e atribuição de ataques.
+
+### ⚙️ Etapas da Análise Forense (NIST 800-86)
+
+1. **Coleta** — obtenção de dados digitais relevantes.
+2. **Exame** — verificação e extração de informações úteis.
+3. **Análise** — interpretação dos dados e correlação com o incidente.
+4. **Relatórios** — documentação dos achados e conclusões.
+
+🧱 O **IETF RFC 3227** define uma **ordem de coleta baseada na volatilidade dos dados**, garantindo que as informações mais voláteis sejam preservadas primeiro.
+
+📜 A **cadeia de custódia** deve documentar o **coleta, manuseio e armazenamento seguro das evidências**, garantindo sua integridade.
+
+### 🎯 Atribuição de Ataque
+
+A **identificação dos responsáveis** por uma ameaça ocorre por meio da **investigação sistemática e baseada em evidências**.
+A equipe de resposta correlaciona **Táticas, Técnicas e Procedimentos (TTPs)** usados no incidente com padrões conhecidos de exploração.
+
+🔗 **Fontes de inteligência de ameaças** ajudam a mapear os TTPs e relacioná-los com ataques anteriores.
+Uma ferramenta importante para isso é o **MITRE ATT&CK**, que documenta táticas e técnicas adversárias usadas no mundo real.
+
+---
+
+## ⚔️ Cyber Kill Chain
+
+A **Cyber Kill Chain** descreve as **sete etapas de um ataque cibernético**, permitindo que analistas identifiquem e interrompam o ataque o quanto antes.
+
+### 🔄 Etapas da Cadeia de Ataque:
+
+1. **Reconhecimento** — coleta de informações sobre o alvo.
+2. **Armamento** — desenvolvimento de uma arma digital.
+3. **Entrega** — envio do ataque ao alvo (ex.: phishing, malware).
+4. **Exploração** — aproveitamento de vulnerabilidades para acesso.
+5. **Instalação** — inserção de backdoors ou softwares maliciosos.
+6. **Comando e Controle (C2)** — controle remoto do sistema comprometido.
+7. **Ações sobre Objetivos** — execução do objetivo final (roubo de dados, DDoS, mineração, etc.).
+
+💡 O objetivo dos analistas é **interromper o ataque o mais cedo possível** nessa cadeia.
+
+---
+
+## 💎 Modelo Diamond de Análise de Intrusão
+
+O **Modelo Diamond** representa um **evento de segurança** e suas relações principais.
+Cada evento é definido pela interação entre **adversário, capacidade, infraestrutura e vítima**.
+
+### 🧩 Elementos do Modelo:
+
+* **Adversário** → quem realiza o ataque.
+* **Capacidade** → recursos, ferramentas ou exploits usados.
+* **Infraestrutura** → sistemas e redes utilizadas pelo atacante.
+* **Vítima** → o alvo afetado pelo evento.
+
+📌 **Meta-atributos adicionais**:
+
+* Timestamp
+* Fase
+* Resultado
+* Direção
+* Metodologia
+* Recursos externos
+
+Os eventos geralmente formam **cadeias conectadas**, que podem ser **mapeadas à Cyber Kill Chain**, permitindo entender a progressão completa de uma invasão.
+
+---
+
+## 🚨 Resposta a Incidentes
+
+A **resposta a incidentes** define os **métodos, políticas e procedimentos** usados para lidar com ataques cibernéticos.
+Os principais objetivos são:
+
+* **Conter o ataque**.
+* **Minimizar o impacto**.
+* **Restaurar as operações normais**.
+
+### 🧩 Estrutura do NIST (Publicação 800-61 Rev. 2)
+
+O NIST define **quatro etapas no ciclo de resposta a incidentes**:
+
+1. **Preparação** → criação do CSIRT (Computer Security Incident Response Team), aquisição de ferramentas e treinamentos.
+2. **Detecção e Análise** → identificação e priorização do incidente.
+3. **Contenção, Erradicação e Recuperação** → bloqueio do ataque, correção de vulnerabilidades e restauração de sistemas.
+4. **Atividades Pós-Incidente** → reunião de “lições aprendidas” e aprimoramento dos controles.
+
+📚 A **documentação das evidências** é fundamental em todas as fases.
+A identificação de invasores é **secundária** à contenção e recuperação de sistemas afetados.
+
+---
+
+## 🧰 Estrutura CMMC (Cybersecurity Maturity Model Certification)
+
+Criada pelo **Departamento de Defesa dos EUA (DoD)**, a **CMMC** avalia a **maturidade cibernética** de organizações que atuam em sua cadeia de suprimentos.
+
+* Define **17 domínios** com práticas de segurança específicas.
+* Cada organização é **classificada por nível de maturidade**.
+* O objetivo é **proteger a cadeia militar e industrial** contra incidentes de segurança.
+
+---
+
+## 🌪️ Recuperação de Desastres
+
+Desastres podem ser **naturais** (terremotos, enchentes) ou **causados por humanos** (falhas, ataques, sabotagem).
+O **Plano de Recuperação de Desastres (DRP)** define as ações para **avaliar, reparar e restaurar** os sistemas afetados.
+
+### 🔧 Tipos de Medidas:
+
+* **Preventivas** → evitam a ocorrência do desastre.
+* **De Detecção** → identificam eventos indesejados.
+* **Corretivas** → restauram o sistema após o evento.
+
+---
+
+## 🏢 Continuidade de Negócios (BCP)
+
+O **Plano de Continuidade de Negócios** vai além de backups. Ele assegura que **funções críticas** continuem mesmo em situações de crise.
+
+### 📊 Etapas Principais:
+
+1. **Análise de Impacto nos Negócios (BIA)** → identifica processos e recursos críticos.
+2. **Definição de Métricas:**
+
+   * **RTO (Recovery Time Objective)** → tempo máximo de recuperação.
+   * **RPO (Recovery Point Objective)** → ponto máximo aceitável de perda de dados.
+   * **MTTR (Mean Time to Repair)** → tempo médio de reparo.
+   * **MTBF (Mean Time Between Failures)** → tempo médio entre falhas.
+
+O NIST estabelece as **melhores práticas** para continuidade e recuperação de operações.
+
+---
+
+## 🧩 Tipos de Treinamento e Testes de Recuperação
+
+* **Exercício de Mesa** → simulação teórica, discutindo respostas sem execução prática.
+* **Teste Funcional** → validações parciais de componentes do plano.
+* **Exercício Operacional Completo** → simulação real, interrompendo serviços para testar respostas.
+
+---
+
+## 📘 Glossário Rápido
+
+* **IoC** → Indicador de Comprometimento
+* **TTP** → Táticas, Técnicas e Procedimentos
+* **CSIRT / CSIRC** → Equipe de Resposta a Incidentes
+* **NIST 800-61** → Guia de Tratamento de Incidentes de Segurança
+* **MITRE ATT&CK** → Framework de comportamento de atacantes
+* **CMMC** → Certificação de Maturidade de Segurança Cibernética
+* **DRP** → Disaster Recovery Plan
+* **BIA** → Business Impact Analysis
+
+---
+
+## ✅ Checklist de Estudo / Atividades Práticas
+
+* [ ] Estudar o **processo forense digital** (coleta → exame → análise → relatórios).
+* [ ] Mapear um ataque completo usando o **Cyber Kill Chain**.
+* [ ] Diagramar um evento com o **Modelo Diamond**.
+* [ ] Criar um **plano de resposta a incidentes** com base no NIST 800-61.
+* [ ] Simular uma **atividade de contenção e recuperação** em ambiente virtual.
+* [ ] Elaborar um **plano de recuperação de desastres (DRP)** e **continuidade de negócios (BCP)**.
+* [ ] Realizar um **teste funcional ou exercício de mesa** de resposta a incidentes.
 
 ---
